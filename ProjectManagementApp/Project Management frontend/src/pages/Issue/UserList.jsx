@@ -36,7 +36,7 @@ const UserList = ({ issueDetails }) => {
         >
           <Avatar className="">
             <AvatarFallback className="group-hover:bg-gray-400">
-              {item.fullName[0]}
+              {item.fullName}
             </AvatarFallback>
           </Avatar>
 

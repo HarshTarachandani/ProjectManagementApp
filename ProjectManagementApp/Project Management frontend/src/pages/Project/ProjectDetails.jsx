@@ -51,7 +51,7 @@ const ProjectDetails = () => {
                     <div className="flex items-center gap-2">
                       {project.projectDetails?.team.map((item) => (
                         <Avatar className={`cursor-pointer`} key={item}>
-                          <AvatarFallback>{item.fullName[0]?.toUpperCase()}</AvatarFallback>
+                          <AvatarFallback>{item.fullName?.toUpperCase()}</AvatarFallback>
                         </Avatar>
                       ))}
                     </div>
